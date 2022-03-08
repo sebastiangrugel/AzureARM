@@ -4,6 +4,21 @@
     "parameters": {},
     "functions": [],
     "variables": {},
-    "resources": [],
+    "resources": [
+        {
+            "name": "awsstorageaccount2",
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-04-01",
+            "location": "West Europe",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "Premium_LRS",
+                "tier": "Premium"
+            },
+            "properties": {
+                "supportsHttpsTrafficOnly": true
+            }
+        }
+    ],
     "outputs": {}
 }
